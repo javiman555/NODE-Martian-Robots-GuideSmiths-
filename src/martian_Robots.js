@@ -154,9 +154,9 @@ function martianRobot(grid, position, script,gridMap) {
 
 //Test the files one at a time
 
-gridMap=readFile('input1.txt');
+gridMap=readFile('../resources/input1.txt');
 
-//gridMap= readFile('input2.txt');
+//gridMap= readFile('../resources/input2.txt');
 
 //The timeout is needed to give time to read the file
 setTimeout(() => { drawMap(gridMap); }, 500);
